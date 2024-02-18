@@ -33,7 +33,7 @@ The graphs will be saved as `top_10_songs.png` and `top_5_artists.png`.
 ## 📂 Project background
 This is my first personal project after starting to learn Python.
 
-The project is inspired by Eric Chiang's [original inquiry into his own streaming history](https://ericchiang.github.io/post/spotify/)
+The project is inspired by [Eric Chiang's inquiry](https://ericchiang.github.io/post/spotify/) into his own streaming history.
 
 Eric had access to his entire Spotify streaming history. I'm still waiting for mine (it takes up to 30 days) but meanwhile I got a small data set from Spotify, covering only the past year and a subset of info. 16,490 events iso the 120,000 Eric had.
 
