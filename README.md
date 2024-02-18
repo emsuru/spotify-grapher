@@ -39,11 +39,11 @@ Eric had access to his entire Spotify streaming history. I'm still waiting for m
 
 ## Visuals 
 
-My top song of the past year is actually my toddler's top song.. 
+My top song of the past year is actually our toddler's top song.. 
 
 ![top-songs](top_10_songs.png)
 
-Spot when my toddler started having a say in what we listen to..
+Spot when our toddler started having a say in what I listen to..
 
 ![top-artists](top_5_artists.png)
 
