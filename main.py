@@ -17,11 +17,9 @@ df = pd.concat(dfs)
 
 print("Columns:", df.columns.values)
 print("Number of streams:", str(df.shape[0]))
-#print(datetime.timedelta(milliseconds=int(df['ms_played'].sum())))
 def format_ms(x, pos):
     return str(round(x/(3.6e+6), 2)) + 'h'
 
-# Filter by year, group by artist, sum time played and take top ten.
 year_df = df.loc[pd.to_datetime(df['endTime']).apply(lambda t: t.year == 2023)]
 year_df = year_df.groupby(['trackName'])[['msPlayed']].sum()
 year_df = year_df.sort_values('msPlayed', ascending=False)
