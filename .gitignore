@@ -1,7 +1,5 @@
 .DS_Store
 my_spotify_data.zip
-top_10_songs.png
-top_5_artists.png
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
