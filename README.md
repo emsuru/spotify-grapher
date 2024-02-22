@@ -4,7 +4,7 @@
 
 A tiny Python project that generates visualizations of your Spotify streaming history, made so I can practice working with Pandas data frames. :)
 
-Go to your Spotify account and request your data. You'll get a zip file with a bunch of JSON files. This project will generate a couple of graphs from that data.
+Go to your Spotify account and request your data. You'll get a zip file with a bunch of JSON files. This script will generate a couple of graphs from that data.
 
 Features:
 
