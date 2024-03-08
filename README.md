@@ -2,7 +2,7 @@
 
 ## 📖 Description
 
-A tiny Python project that generates visualizations of your Spotify streaming history, made so I can practice working with Pandas data frames. :)
+A tiny Python script that generates visualizations of your Spotify streaming history, made so I can practice working with Pandas data frames. :)
 
 Go to your Spotify account and request your data. You'll get a zip file with a bunch of JSON files. This script will generate a couple of graphs from that data.
 
@@ -10,17 +10,11 @@ Features:
 
 - Generate a bar chart of the top 10 songs played.
 - Generate a line chart of the listening history for the top 5 artists.
-
-## 🛠️ Setup & Installation
-To set up the project, clone the repository and install the required dependencies:
-
-```
-git clone https://github.com/emsuru/spotify-grapher.git
-```
+- More coming soon :D 
 
 ## 👩‍💻 Usage
 
-To run the script and generate your own graphs, copy the zip you get from Spotify into this project's directory (it will be called 'my_spotify_data.zip') then execute:
+To run the script and generate your own graphs, you can just copy the zip you get from Spotify into this project's directory (it will be called 'my_spotify_data.zip') then execute:
 
 ```
 
@@ -28,7 +22,7 @@ python main.py
 
 ```
 
-The graphs will be saved as `top_10_songs.png` and `top_5_artists.png`.
+The outout will be two graphs which will be saved as `top_10_songs.png` and `top_5_artists.png`.
 
 ## 📂 Project background
 This is my first personal project after starting to learn Python.
