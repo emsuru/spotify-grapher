@@ -1,3 +1,5 @@
+# this script works for the sample data you get from Spotify in a zip file (will update soon for full dataset)
+
 import datetime
 import zipfile
 import pandas as pd
@@ -6,13 +8,19 @@ import matplotlib.dates as mdates
 
 from matplotlib.ticker import FuncFormatter
 
+# Initialize an empty list to store individual dataframes
 dfs = []
+# Open the zip file containing Spotify data in read mode
 zf = zipfile.ZipFile('my_spotify_data.zip', 'r')
+# Iterate through each file name in the zip file
 for name in zf.namelist():
+    # Skip files that do not contain 'StreamingHistory' in their name
     if 'StreamingHistory' not in name:
         continue
+    # Read the JSON file into a pandas dataframe and append it to the list of dataframes
     dfs.append(pd.read_json(zf.open(name)))
 
+# Concatenate all dataframes in the list into a single dataframe
 df = pd.concat(dfs)
 
 print("Columns:", df.columns.values)

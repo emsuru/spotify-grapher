@@ -1,5 +1,6 @@
 .DS_Store
 my_spotify_data.zip
+my_spotify_data_2.zip
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
